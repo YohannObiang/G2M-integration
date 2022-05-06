@@ -104,7 +104,8 @@ p{
 .texte{
     position: absolute;
     bottom: 20%;
-}.contactbox{
+}
+.contactbox{
     height: fit-content;
     display: flex;
     align-items: center;
@@ -208,21 +209,28 @@ p{
 .headservice{
     width: 50%;
 }
+.box{
+    width: 100%;
+    justify-content: space-around;
+}
 .innerbox{
     width: 32%;
-    height: 60vh;
+    height: 67vh;
     background-color: #ffffff;
     border-radius: 13px;
 
 }
 .innerbox1{
     width: 32%;
-    height: 60vh;
+    height: 72vh;
     background-color: #ffffff;
     border-radius: 13px;
-    box-shadow: 10px black;
+    box-shadow: 2px 2px 10px rgba(10, 10, 10, 0.349);
     
 
+}
+.innerbox-text{
+    margin-left: 8%;
 }
 .circle{
     width: 200px;
@@ -261,7 +269,7 @@ p{
     
 }
 h2{
-    font-size: 40px;
+    font-size: 30px;
 }
 .lorembox{
     color: gray;
@@ -329,18 +337,24 @@ h2{
     justify-content: center;
 
 }
-
 .text4{
     color: grey;
     font-size: smaller;
+ 
 
 }
+.addedtext{
+    height: 100%;
+    width: 70%;
+    margin-right: 4%;
+}
 .smallbox{
-    width: 30%;
+    width: 33%;
     height: 15vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 .comments{
     display: flex;
