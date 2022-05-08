@@ -155,6 +155,7 @@ p{
     justify-content: center;
     align-items: center;
     border: none;
+    margin-right: 10px;
 }
 .RSbox{
     width: 27%;
@@ -372,8 +373,8 @@ h2{
 }
 footer{
     width: 100%;
-    height: 150vh;
-    background-color: #5D6085;
+    height: 200vh;
+    background-color: #3e4169;
     position: relative;margin-top: 10%;
 }
 .form{
@@ -406,7 +407,7 @@ footer{
     top: 10%;
 }
 .hoverrectangle{
-    content: "";
+
     width: 350px;
     height: 320px;
     background-color: white;
@@ -415,14 +416,30 @@ footer{
     right: 15%;
     top: 8%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+
+    
 
 }
 .thetwinphotos{
     border-radius: 20px;
+
+    
 }
+
 .form-content{
     display: flex;
     flex-direction: column;
+}
+.innerbox2{
+    width: 24%;
+    height: 35vh;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+    margin-left: 5em;
+    
+
 }
