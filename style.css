@@ -388,8 +388,8 @@ footer{
 }
 .greyrectangle{
     width: 117%;
-    height: 280vh;
-    background-color: rgb(221, 221, 221);
+    height: 230vh;
+    background-color: #ECEDF3;
     background-size: cover;
     margin-left: -10vw;
     border-radius: 50px;
@@ -442,4 +442,23 @@ footer{
     margin-left: 5em;
     
 
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 83%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.innerform::before{
+    content: ;
+
+}
+.gradient::after{
+    content: "";
+    width: 400px;
+    height: 400px;
+    background-color: #3e4169;
 }
